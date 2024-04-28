@@ -31,3 +31,61 @@ h2{font-size: 1.4rem;}
 h3{font-size: 1.2rem;}
 
 .summary{text-align: center;}
+.main p {line-height: 1.5 ;} 
+
+abbr{font-variant:  small-caps;}
+
+
+aside ul{
+    list-style-type: none;
+}
+
+aside ul li{
+    margin: 1em;
+    text-align:center;
+}
+
+
+
+
+
+.page-wrapper{
+    width: 80%;
+    max-width: 1280px;
+    margin-left: 10%;
+    margin: auto;
+}
+
+#zen-intro{
+    height: 550px;
+}
+
+#design-archives{
+    display: none;
+}
+
+#zen-intro header{
+    background: var(--fonte);
+    color: var(--background);
+}
+
+#zen-intro header h1, #zen-intro header h2{
+    display: inline-block;
+}
+
+#zen-intro header h1{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
+.main footer{
+    margin: 4%;
+
+}
+
+.main footer a{
+    border: solid 2px var(--fonte);
+    padding: 0.5rem;
+    display: inline-block;
+}
