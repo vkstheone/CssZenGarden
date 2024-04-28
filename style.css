@@ -1,0 +1,17 @@
+Color Theme Swatches in Hex
+.principal { color: #3BBCD9; }
+.background { color: #88E8F2; }
+.Viagem-3-hex { color: #F2B705; }
+.Viagem-4-hex { color: #BF9075; }
+.destaque{ color: #F24141; } 
+
+:root{
+    --principal:  #F24141;
+    --background:  #88E8F2;
+    --fonte: #fff;
+}
+
+html{
+    background: var(--background);
+    color: var(--fonte);
+}
