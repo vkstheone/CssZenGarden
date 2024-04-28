@@ -50,10 +50,25 @@ aside ul li{
 
 
 .page-wrapper{
+    position: relative;
     width: 80%;
     max-width: 1280px;
     margin-left: 10%;
     margin: auto;
+}
+.explanation{
+    width: 60%;
+    border-right: solid 1px var(--principal);
+}
+
+#design-selection{
+    position: absolute;
+    top: 560px;
+    left: 62%;
+    padding-left: 2%;
+    padding-right: 2%;
+
+
 }
 
 #zen-intro{
