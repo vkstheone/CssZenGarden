@@ -63,7 +63,7 @@ aside ul li{
 
 #design-selection{
     position: absolute;
-    top: 560px;
+    top: 520px;
     left: 62%;
     padding-left: 2%;
     padding-right: 2%;
@@ -103,4 +103,40 @@ aside ul li{
     border: solid 2px var(--fonte);
     padding: 0.5rem;
     display: inline-block;
+}
+
+
+
+.supporting footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.benefits{
+    display: flex;
+    border-top: var(--principal) solid 1px;
+    border-bottom: var(--principal) solid 1px;
+}
+
+.benefits p{
+    flex-basis: 70%;
+}
+
+.benefits h3{
+    order: 2;
+    align-self: center;
+}
+
+.participation{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: var(--principal) solid 1px;;
+}
+
+.participation h3, .participation p{
+    flex-basis: 50%;
+}
+
+.participation h3{
+    align-self: center;
 }
