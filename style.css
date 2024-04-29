@@ -9,6 +9,7 @@ Color Theme Swatches in Hex
     --principal:  #F24141;
     --background:  #88E8F2;
     --fonte: #fff;
+    --destaque: #F2B705;
 }
 
 html{
@@ -139,4 +140,31 @@ aside ul li{
 
 .participation h3{
     align-self: center;
+}
+
+
+
+a{
+    color: var(--destaque);
+    font-weight: bold;
+}
+
+a:hover{
+    color: #e31b1b;
+    font-weight: normal;
+}
+
+.main p:first-of-type::first-letter{
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+}
+
+.design-selection li{
+    border-top: #1f295c solid 1px;
+    padding-top: 5px;
+}
+.design-selection li:last-of-type{
+    border-bottom: #1f295c solid 1px;
+    padding-bottom: 5px;
 }
